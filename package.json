@@ -1,0 +1,29 @@
+{
+  "name": "pifancontrol",
+  "version": "1.0.0",
+  "description": "Fan Controller For Raspberry Pi",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willyilcojote/PiFanControl.git"
+  },
+  "keywords": [
+    "fan",
+    "control",
+    "raspberrypi",
+    "pi",
+    "raspberry",
+    "onoff",
+    "thermal",
+    "temperatures"
+  ],
+  "author": "Alessandro Baldissera",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/willyilcojote/PiFanControl/issues"
+  },
+  "homepage": "https://github.com/willyilcojote/PiFanControl#readme"
+}

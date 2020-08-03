@@ -1,0 +1,13 @@
+[Unit]
+Description=Fan control system
+Before=multi-user.target
+Before=graphical.target
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=10
+ExecStart=/opt/PiFanControl/app.js
+
+[Install]
+WantedBy=multi-user.target
